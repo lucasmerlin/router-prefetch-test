@@ -16,6 +16,10 @@ export default function Layout({children, params: {id}}: { children: ReactNode, 
             <Link href={`/user/${id}/home`}>Home</Link>
         </div>
 
+        <div>
+            <Link href={"/non-app"}>Non App Page</Link>
+        </div>
+
         Page:
 
         {children}
