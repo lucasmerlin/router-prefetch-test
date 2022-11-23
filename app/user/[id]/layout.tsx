@@ -10,10 +10,10 @@ export default function Layout({children, params: {id}}: { children: ReactNode, 
         </div>
 
         <div>
-            <Link href={`/user/${id}/gallery`}>Gallery</Link>
+            <Link href={`gallery`}>Gallery</Link>
         </div>
         <div>
-            <Link href={`/user/${id}/home`}>Home</Link>
+            <Link href={`home`}>Home</Link>
         </div>
 
         <div>
